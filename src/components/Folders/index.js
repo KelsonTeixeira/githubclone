@@ -12,7 +12,7 @@ export default class Folders extends React.Component{
     }
 
     componentDidMount = async () => {
-        await fetch(`https://api.github.com/users/${this.props.folders}`)
+        await fetch(`${process.env.REACT_APP_API_URL}/${this.props.folders}`)
         .then(response => response.json())
         .then(folders => this.setState( { folders }));
 
