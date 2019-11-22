@@ -13,13 +13,13 @@ export default class Repositories extends React.Component{
     }
 
     componentDidMount = async () => {
-        await fetch(`${process.env.REACT_APP_API_URL}${this.props.repos}`)
+        await fetch(`${process.env.REACT_APP_API_URL}/${this.props.repos}`)
         .then(response => response.json())
         .then(repos => this.setState({ repos }));
     }
 
     componentDidUpdate = async () => {
-        await fetch(`${process.env.REACT_APP_API_URL}${this.props.repos}`)
+        await fetch(`${process.env.REACT_APP_API_URL}/${this.props.repos}`)
         .then(response => response.json())
         .then(repos => this.setState({ repos }));
     }
