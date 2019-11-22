@@ -8,7 +8,7 @@ export default class Followers extends React.Component{
     }
 
     componentDidMount = async () => {
-        await fetch(`https://api.github.com/users/${this.props.follow}`)
+        await fetch(`${process.env.REACT_APP_API_URL}${this.props.follow}`)
         .then(response => response.json())
         .then(follow => this.setState( { follow }));
     }
