@@ -1,0 +1,27 @@
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-bottom: 1px solid #a5a5a5;
+    margin-bottom: 10px;
+    display: inline-flex;
+}
+.nav-bar a {
+    color: #a5a5a5;
+    font-weight: lighter;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    margin-right: 10px;
+    width: fit-content;
+    height: 100%;
+    border-bottom: none;
+    transition: all 0.2s;
+}
+
+.nav-bar a:hover{
+    border-bottom: 2px solid #a5a5a5;
+}

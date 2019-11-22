@@ -1,0 +1,25 @@
+.follow-box{
+    width: 100%;
+    padding: 20px 5px;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 1px solid #dadada;
+}
+
+.follow-box img{
+    height: 70px;
+    width: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.follow-box a{
+    color: #2d3436;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.follow-box a:hover{
+    color: #0366d6;
+}

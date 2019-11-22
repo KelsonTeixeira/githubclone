@@ -1,0 +1,45 @@
+.bio-box {
+    height: fit-content;
+    width: 25%;
+    padding-right: 50px;
+}
+
+.bio-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.bio-box h1 {
+    font-size: 25px;
+    color: #2d3436;
+    margin-bottom: 5px;
+}
+
+.bio-box h2{
+    font-size: 20px;
+    color: #808080;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.bio-box p {
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #303030;
+    margin-bottom: 20px;
+}
+
+.bio-box .organizations {
+    width: 100%;
+    border-top: 1px solid #dadada;
+    padding-top: 20px;
+}
+
+.bio-box .organizations p{
+    font-size: 16px;
+    font-weight: bold;
+}

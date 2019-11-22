@@ -1,0 +1,64 @@
+.folder-container{
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.folder-container h1 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #2d3436;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.repositories{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.folder-box{
+    padding: 15px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+
+.folder-box a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0366d6;
+    text-decoration: none;      
+    transition: all 0.2s;
+}
+
+.folder-box a:hover{
+    text-decoration: underline;
+}
+
+.folder-box p {
+    color: #808080;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.folder-box .folder-info{
+    display: inline-flex;
+    align-items: center;
+}
+
+.folder-box .folder-info p{
+    font-size: 13px;
+    margin: 0 15px 0 0;
+    color: #808080;
+}
+
+.folder-box img{
+    height: 17px;
+    width: auto;
+    opacity: 0.6;
+    margin-right: 2px;
+}
