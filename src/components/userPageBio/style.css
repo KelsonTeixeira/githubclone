@@ -43,3 +43,35 @@
     font-size: 16px;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 680px) {
+    .bio-box{
+        height: 100px;
+        width: 100%;
+        padding: 5px 10px;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .bio-box h2 {
+        display: none;
+    }
+    .bio-box img{
+        height: 100%;
+        width: auto;
+        margin: 0 10px 0 0;
+    }
+
+    .bio-box .organizations{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .bio-box img{
+        margin-right: 30px;
+    }
+    .bio-box p{
+        display: none;
+    }
+}

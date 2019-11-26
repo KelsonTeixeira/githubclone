@@ -62,3 +62,11 @@
     opacity: 0.6;
     margin-right: 2px;
 }
+
+@media only screen and (max-width: 414px){
+    .repositories{grid-gap: 10px;}
+    .folder-box{padding: 10px;}
+    .folder-box p{
+        font-size: 13px;
+    }
+}

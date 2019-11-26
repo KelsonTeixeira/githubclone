@@ -17,7 +17,7 @@ export default class Login extends Component {
     render () {
         return (
             <div className='login-page'>
-                <div className='login-form'>
+                <div className='login-form' >
                     <img src={Icon} alt='github icon'/>
                     <h1>Sign in to GitHub copy</h1>
                     <div className='username-box'>
