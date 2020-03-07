@@ -1,4 +1,4 @@
-<h1> Git Clone </h1>
+# <h1> Git Clone </h1>
 
 <p> My first ReactJs project, I cloned github web page using github api to get the data </p>
 
