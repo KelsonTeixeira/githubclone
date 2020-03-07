@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1> Git Clone </h1>
+
+<p> My first ReactJs project, I cloned github web page using github api to get the data </p>
+
+<img src="" width="700" >
+
+<img src="" width="700" >
+
+link: <a href="https://react-git-clone.herokuapp.com/" target="_blank">react-git-clone.herokuapp.com/</a>
 
 ## Available Scripts
 
